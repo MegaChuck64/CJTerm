@@ -97,7 +97,7 @@ public class Terminal
 
     void HandleCommands()
     {
-        Write("?> ");
+        Write("?>");
         if (Console.KeyAvailable)
         {
             var input = Console.ReadLine();
